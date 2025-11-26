@@ -1,0 +1,84 @@
+/* ---------- GLOBAL STYLES ---------- */
+
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #4caf50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ---------- NAVBAR ---------- */
+
+nav {
+    background-color: #1e1e1e;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #333;
+}
+
+nav .logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4caf50;
+}
+
+nav a {
+    margin-left: 20px;
+    color: #ccc;
+}
+
+/* ---------- MAIN CONTENT ---------- */
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* ---------- BLOG CARDS ---------- */
+
+.post-card {
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #333;
+    transition: 0.3s;
+}
+
+.post-card:hover {
+    border-color: #4caf50;
+}
+
+.post-card h2 {
+    margin-top: 0;
+    color: #4caf50;
+}
+
+.post-card p {
+    color: #bbb;
+}
+
+/* ---------- BLOG POST PAGE ---------- */
+
+.post-title {
+    font-size: 32px;
+    color: #4caf50;
+}
+
+.post-content p {
+    line-height: 1.6;
+    color: #ddd;
+}
